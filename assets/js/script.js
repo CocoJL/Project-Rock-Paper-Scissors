@@ -128,6 +128,7 @@ function reset() {
   playerScore = 0;
   computerScore = 0;
   tieScore = 0;
+
   _playerScore.textContent = 0;
   _computerScore.textContent = 0;
   _tieScore.textContent = 0;
