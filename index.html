@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <div class="game-info">
+          <div class="information">
+            <h1>Rock, paper, scissors!</h1>
+          </div>
+          <div class="round-counter">
+            Round: <span class="round-count">1</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="player-wrapper">
+            <div class="player-hero">
+              <div class="player-heading">
+                <h1>Player</h1>
+              </div>
+
+              <div class="img">
+                <img src="assets/images/rock.png" id="rock" alt="rock" />
+                <img src="assets/images/paper.png" id="paper" alt="paper" />
+                <img
+                  src="assets/images/scissors.png"
+                  id="scissors"
+                  alt="scissors"
+                />
+              </div>
+              <div class="choice">
+                Your choice: &nbsp;<span id="player-choice"> </span>
+              </div>
+            </div>
+            <div id="player-score" class="score">0</div>
+          </div>
+          <div class="message"></div>
+          <div class="computer-wrapper">
+            <div class="computer-hero">
+              <div class="computer-heading"><p>Computer</p></div>
+              <div class="img">
+                <img id="computer-img" src="assets/images/robot.png" alt="" />
+              </div>
+              <div class="choice">
+                PC selected: &nbsp;
+                <span id="computer-choice"></span>
+              </div>
+            </div>
+            <div id="computer-score" class="score">0</div>
+          </div>
+        </div>
+
+        <div class="reset">
+          <button class="button-29" id="reset">Reset</button>
+        </div>
+        <div id="tieScore">0</div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

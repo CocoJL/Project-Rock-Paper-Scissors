@@ -19,11 +19,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
 }
 
 img {
   height: 70px;
-  width: auto;
+  width: 100%;
 }
 
 .container {
@@ -52,7 +53,7 @@ img {
 
 .container .game-info .round-counter {
   color: #fff;
-  font-size: 1rem;
+  font-size: 2rem;
   font-style: italic;
   margin-bottom: 3rem;
 }
@@ -61,6 +62,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
 }
 
 .container .hero-container .player-hero {
@@ -68,7 +70,6 @@ img {
   height: 13rem;
   border-radius: 1.5rem;
   width: 20rem;
-  margin-right: 5rem;
 }
 
 .container .hero-container .player-hero .player-heading {
@@ -86,7 +87,6 @@ img {
   height: 13rem;
   border-radius: 1.5rem;
   width: 20rem;
-  margin-left: 5rem;
 }
 
 .container .hero-container .computer-hero .computer-heading {
@@ -97,20 +97,23 @@ img {
   margin-bottom: 1rem;
 }
 
+.container .choice {
+  visibility: hidden;
+}
+
+.container .choice span {
+  text-transform: capitalize;
+}
+
 .container .score {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
 }
 
-.container .score .player-score {
+.container .score {
   color: #fff;
-  margin-left: 2rem;
-}
-
-.container .score .computer-score {
-  color: #fff;
-  margin-right: 4rem;
+  margin: 0 auto;
 }
 .container .reset {
   display: flex;
