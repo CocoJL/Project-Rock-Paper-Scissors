@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  height: 70px;
+  width: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  margin-top: 10rem;
+}
+
+.container .game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .game-info .information {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.container .game-info .round-counter {
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.container .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .hero-container .player-hero {
+  background-color: #fff;
+  height: 13rem;
+  border-radius: 1.5rem;
+  width: 20rem;
+  margin-right: 5rem;
+}
+
+.container .hero-container .player-hero .player-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container .hero-container .winner {
+  font-size: 0.7rem;
+}
+.container .hero-container .computer-hero {
+  background-color: #fff;
+  height: 13rem;
+  border-radius: 1.5rem;
+  width: 20rem;
+  margin-left: 5rem;
+}
+
+.container .hero-container .computer-hero .computer-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container .score {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.container .score .player-score {
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.container .score .computer-score {
+  color: #fff;
+  margin-right: 4rem;
+}
+.container .reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.container .reset .button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding: 1rem 4rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
